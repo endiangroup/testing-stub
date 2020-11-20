@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "test": "cd dist && node tester.js ./*.test.js",
+    "watch": "./node_modules/.bin/tsc-watch --onSuccess 'yarn test'"
+  },
+  "dependencies": {
+    "typescript": "^4.1.2",
+    "@types/assert": "^1.5.2",
+    "@types/node": "^14.10.1",
+    "tsc-watch": "^4.2.9"
+  },
+  "license": "UNLICENSED"
+}
